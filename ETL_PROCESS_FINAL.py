@@ -10,6 +10,7 @@ import pyspark
 import requests
 import zipfile
 import os
+import json
 
 dbutils.widgets.dropdown("env", "dev", ["dev", "prod"], "Select Environment")
 dbutils.widgets.text("env", "dev")
@@ -42,7 +43,15 @@ def log_verify(env,status,cell,message,return_to_parent=False):
 
 if mode=='dev':
     print(f"stage:{mode}")
-    output_directory = "/Volumes/workspace/default/stackoverflow_year"
+
+    repo_base_path = "/Workspace/Repos/arraakularavind@gmail.com/databricks_project"
+    config_path = f"{repo_base_path}/config/config_{mode}.json"
+
+    with open(config_path) as f:
+        config = json.load(f)
+
+    output_directory = config["output_directory"]
+    #output_directory = "/Volumes/workspace/default/stackoverflow_year"
     os.makedirs(output_directory, exist_ok=True)
 
     for year in range(2020, 2025):
