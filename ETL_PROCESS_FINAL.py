@@ -134,6 +134,12 @@ def user_b_added():
 
 # COMMAND ----------
 
+#User C added a new features to code
+def user_c_added():
+    pass
+
+# COMMAND ----------
+
 target_field=['ResponseId','Age','Employment','EdLevel','Country','YearsCode','YearsCodePro','DevType','LanguageHaveWorkedWith','DatabaseHaveWorkedWith','WebframeHaveWorkedWith','SurveyYear']
 
 # COMMAND ----------
