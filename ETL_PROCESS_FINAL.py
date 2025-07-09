@@ -129,6 +129,7 @@ def user_a_added():
     print("user_b_working on user_a_added()")
 
     print("usera working in cell 5")
+    print("user_b is working in cell 5")
     pass
 
 # COMMAND ----------
