@@ -156,6 +156,7 @@ def user_a_added_test():
 
 def user_b_added_test():
     print("User A also working")
+    print("User B also working")
 
 # COMMAND ----------
 
