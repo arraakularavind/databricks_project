@@ -162,8 +162,7 @@ def user_a_function():
 # COMMAND ----------
 
 def user_b_function():
-    print("working by User A")
-    pass
+    print("working by User B")
 
 # COMMAND ----------
 
