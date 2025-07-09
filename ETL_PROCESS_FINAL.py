@@ -155,6 +155,16 @@ def production_fixing():
 
 # COMMAND ----------
 
+def user_a_function():
+    print("Working by User A")
+
+# COMMAND ----------
+
+def user_a_function():
+    print("Working by User B")
+
+# COMMAND ----------
+
 target_field=['ResponseId','Age','Employment','EdLevel','Country','YearsCode','YearsCodePro','DevType','LanguageHaveWorkedWith','DatabaseHaveWorkedWith','WebframeHaveWorkedWith','SurveyYear']
 
 # COMMAND ----------
