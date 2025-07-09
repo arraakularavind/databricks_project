@@ -149,14 +149,11 @@ def user_c_added():
 
 # COMMAND ----------
 
-def user_a_added_test():
-    print("User A working")
+
 
 # COMMAND ----------
 
-def user_b_added_test():
-    print("User A also working")
-    print("User B also working")
+
 
 # COMMAND ----------
 
@@ -174,6 +171,7 @@ def user_a_testing():
 
 def user_b_portion():
     print("User A also working")
+    print("User B also working")
     pass
 
 # COMMAND ----------
