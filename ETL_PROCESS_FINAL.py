@@ -149,6 +149,12 @@ def user_c_added():
 
 # COMMAND ----------
 
+def production_fixing():
+    print("bug fixed")
+    pass
+
+# COMMAND ----------
+
 target_field=['ResponseId','Age','Employment','EdLevel','Country','YearsCode','YearsCodePro','DevType','LanguageHaveWorkedWith','DatabaseHaveWorkedWith','WebframeHaveWorkedWith','SurveyYear']
 
 # COMMAND ----------
