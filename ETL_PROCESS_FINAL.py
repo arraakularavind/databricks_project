@@ -135,6 +135,7 @@ def user_a_added():
 # COMMAND ----------
 
 def user_b_added():
+    print("User A working in cell 6")
     pass
 
 # COMMAND ----------
