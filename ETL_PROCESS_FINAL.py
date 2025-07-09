@@ -166,6 +166,18 @@ def production_fixing():
 
 # COMMAND ----------
 
+def user_a_testing():
+    print("User A working")
+    pass
+
+# COMMAND ----------
+
+def user_b_portion():
+    print("User A also working")
+    pass
+
+# COMMAND ----------
+
 target_field=['ResponseId','Age','Employment','EdLevel','Country','YearsCode','YearsCodePro','DevType','LanguageHaveWorkedWith','DatabaseHaveWorkedWith','WebframeHaveWorkedWith','SurveyYear']
 
 # COMMAND ----------
