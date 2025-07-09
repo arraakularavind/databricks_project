@@ -151,6 +151,9 @@ def user_c_added():
 
 def production_fixing():
     print("bug fixed")
+
+def user_c_cleanup():
+    print("User C cleaned up a column in the table")
     pass
 
 # COMMAND ----------
