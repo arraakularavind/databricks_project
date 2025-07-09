@@ -144,6 +144,7 @@ def user_b_added():
 
 #User C added a new features to code
 def user_c_added():
+    print("User C added a new feature")
     pass
 
 # COMMAND ----------
