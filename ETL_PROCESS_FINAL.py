@@ -124,6 +124,30 @@ elif mode=='prod':
 
 # COMMAND ----------
 
+def user_a_added():
+    print("user_a working on user_a_added()")
+    print("user_b_working on user_a_added()")
+
+    print("usera working in cell 5")
+    print("user_b is working in cell 5")
+    pass
+
+# COMMAND ----------
+
+def user_b_added():
+    print("User A working in cell 6")
+
+    print("User B actually to be present in User A and User B repo going to try for incoming")
+    pass
+
+# COMMAND ----------
+
+#User C added a new features to code
+def user_c_added():
+    pass
+
+# COMMAND ----------
+
 target_field=['ResponseId','Age','Employment','EdLevel','Country','YearsCode','YearsCodePro','DevType','LanguageHaveWorkedWith','DatabaseHaveWorkedWith','WebframeHaveWorkedWith','SurveyYear']
 
 # COMMAND ----------
