@@ -126,6 +126,7 @@ elif mode=='prod':
 
 def user_a_added():
     print("user_a working on user_a_added()")
+    print("user_b_working on user_a_added()")
     pass
 
 # COMMAND ----------
