@@ -149,25 +149,9 @@ def user_c_added():
 
 # COMMAND ----------
 
-
-
-# COMMAND ----------
-
-
-
-# COMMAND ----------
-
 def production_fixing():
     print("bug fixed")
     pass
-
-# COMMAND ----------
-
-
-
-# COMMAND ----------
-
-
 
 # COMMAND ----------
 
