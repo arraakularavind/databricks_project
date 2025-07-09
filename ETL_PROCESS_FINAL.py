@@ -137,7 +137,7 @@ def user_a_added():
 def user_b_added():
     print("User A working in cell 6")
 
-    print("User A is pushing code in cell 6")
+    print("User B actually to be present in User A and User B repo going to try for incoming")
     pass
 
 # COMMAND ----------
