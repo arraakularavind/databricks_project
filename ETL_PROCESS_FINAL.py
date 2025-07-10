@@ -129,7 +129,7 @@ target_field=['ResponseId','Age','Employment','EdLevel','Country','YearsCode','Y
 # COMMAND ----------
 
 def critical_section():
-    print("User A also working in cell 6 meant for B")
+    print("User B also working in cell 6")
     pass
 
 # COMMAND ----------
