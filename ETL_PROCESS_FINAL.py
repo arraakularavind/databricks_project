@@ -128,6 +128,18 @@ target_field=['ResponseId','Age','Employment','EdLevel','Country','YearsCode','Y
 
 # COMMAND ----------
 
+def critical_section():
+    print("User A also working in cell 6 meant for B")
+    pass
+
+# COMMAND ----------
+
+def User_A():
+    print("User A cell")
+    pass
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC ## Expected Fields 
 # MAGIC
