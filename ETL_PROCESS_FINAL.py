@@ -142,6 +142,12 @@ def userA():
 
 # COMMAND ----------
 
+def userA_different_cell():
+    print("User A is working")
+    pass
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC ## Expected Fields 
 # MAGIC
