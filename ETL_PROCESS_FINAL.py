@@ -129,7 +129,7 @@ target_field=['ResponseId','Age','Employment','EdLevel','Country','YearsCode','Y
 # COMMAND ----------
 
 def critical_section():
-    print("critical section Accessed by User A")
+    print("critical section Accessed by User B")
     pass
 
 
@@ -138,6 +138,7 @@ def critical_section():
 def userA():
     print("This is User A portion")
     pass
+
 
 # COMMAND ----------
 
