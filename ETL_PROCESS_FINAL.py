@@ -128,20 +128,6 @@ target_field=['ResponseId','Age','Employment','EdLevel','Country','YearsCode','Y
 
 # COMMAND ----------
 
-def critical_section():
-    print("critical section Accessed by User B")
-    pass
-
-
-# COMMAND ----------
-
-def userA():
-    print("This is User A portion")
-    pass
-
-
-# COMMAND ----------
-
 # MAGIC %md
 # MAGIC ## Expected Fields 
 # MAGIC
