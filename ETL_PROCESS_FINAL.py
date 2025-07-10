@@ -128,6 +128,11 @@ target_field=['ResponseId','Age','Employment','EdLevel','Country','YearsCode','Y
 
 # COMMAND ----------
 
+def user_b():
+    print("User B")
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC ## Expected Fields 
 # MAGIC
