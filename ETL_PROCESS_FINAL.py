@@ -128,8 +128,13 @@ target_field=['ResponseId','Age','Employment','EdLevel','Country','YearsCode','Y
 
 # COMMAND ----------
 
+def feature_added():
+    print("new feature added by user B")
+
+
 def production_bug():
     print("Production Bug resolved")
+
 
 # COMMAND ----------
 
