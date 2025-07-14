@@ -138,8 +138,7 @@ def production_bug():
 
 # COMMAND ----------
 
-def payment_feature():
-    print("new payment feature added")
+
 
 # COMMAND ----------
 
