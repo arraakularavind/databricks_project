@@ -138,6 +138,8 @@ def production_bug2():
 
 # COMMAND ----------
 
+def feature_add():
+    print("Feature are added")
 def production_bug3():
     print("bug 514 fixed")
 
