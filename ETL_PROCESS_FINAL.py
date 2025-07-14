@@ -145,8 +145,13 @@ def production_bug3():
 
 # COMMAND ----------
 
+
+def new_feature_added():
+    print("features are added and working enough")
+
 def production_bug4():
     print("bug 515 fixed")
+
 
 # COMMAND ----------
 
