@@ -138,6 +138,11 @@ def production_bug():
 
 # COMMAND ----------
 
+def bug_payment():
+    print("bug found resolved in payment")
+
+# COMMAND ----------
+
 # MAGIC
 # MAGIC %md
 # MAGIC ## Expected Fields 
