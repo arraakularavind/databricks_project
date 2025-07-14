@@ -155,6 +155,11 @@ def production_bug4():
 
 # COMMAND ----------
 
+def fixing_hotfix():
+    print("hotfix is fixed")
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC ## Expected Fields 
 # MAGIC
