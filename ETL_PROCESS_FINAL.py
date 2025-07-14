@@ -124,11 +124,6 @@ elif mode=='prod':
 
 # COMMAND ----------
 
-def payment_feature():
-    print("Features has been added successfully!")
-
-# COMMAND ----------
-
 target_field=['ResponseId','Age','Employment','EdLevel','Country','YearsCode','YearsCodePro','DevType','LanguageHaveWorkedWith','DatabaseHaveWorkedWith','WebframeHaveWorkedWith','SurveyYear']
 
 # COMMAND ----------
