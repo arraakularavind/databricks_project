@@ -128,6 +128,16 @@ target_field=['ResponseId','Age','Employment','EdLevel','Country','YearsCode','Y
 
 # COMMAND ----------
 
+def production_bug():
+    print("production_fixed")
+
+# COMMAND ----------
+
+def production_bug2():
+    print("bug 513 fixed")
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC ## Expected Fields 
 # MAGIC
