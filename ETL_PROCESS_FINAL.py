@@ -128,15 +128,6 @@ target_field=['ResponseId','Age','Employment','EdLevel','Country','YearsCode','Y
 
 # COMMAND ----------
 
-
-def feature_added():
-    pass
-
-def production_bug():
-    print("bug resolved...")
-
-# COMMAND ----------
-
 # MAGIC
 # MAGIC %md
 # MAGIC ## Expected Fields 
