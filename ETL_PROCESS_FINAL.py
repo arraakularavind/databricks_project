@@ -145,6 +145,11 @@ def production_bug3():
 
 # COMMAND ----------
 
+def new_feature_added():
+    print("features are added and working enough")
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC ## Expected Fields 
 # MAGIC
