@@ -124,6 +124,11 @@ elif mode=='prod':
 
 # COMMAND ----------
 
+def payment_feature():
+    print("Payment features done")
+
+# COMMAND ----------
+
 target_field=['ResponseId','Age','Employment','EdLevel','Country','YearsCode','YearsCodePro','DevType','LanguageHaveWorkedWith','DatabaseHaveWorkedWith','WebframeHaveWorkedWith','SurveyYear']
 
 # COMMAND ----------
@@ -135,11 +140,6 @@ def feature_added():
 def production_bug():
     print("Production Bug resolved")
 
-
-# COMMAND ----------
-
-def payment_feature():
-    print("Payment features done")
 
 # COMMAND ----------
 
