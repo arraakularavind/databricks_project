@@ -41,6 +41,11 @@ def log_verify(env,status,cell,message,return_to_parent=False):
 
 # COMMAND ----------
 
+def payment_feature():
+    print("Payment Feature added")
+
+# COMMAND ----------
+
 if mode=='dev':
     print(f"stage:{mode}")
 
