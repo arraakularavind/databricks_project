@@ -138,7 +138,8 @@ def production_bug():
 
 # COMMAND ----------
 
-
+def payment_feature():
+    print("Payment features done")
 
 # COMMAND ----------
 
