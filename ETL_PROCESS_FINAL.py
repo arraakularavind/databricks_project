@@ -138,7 +138,8 @@ def production_bug():
 
 # COMMAND ----------
 
-
+def prod_bug():
+    print("Fixed bug 512 issue in prod")
 
 # COMMAND ----------
 
