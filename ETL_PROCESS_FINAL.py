@@ -138,6 +138,11 @@ def production_bug():
 
 # COMMAND ----------
 
+def payment_feature():
+    print("new payment feature added")
+
+# COMMAND ----------
+
 # MAGIC
 # MAGIC %md
 # MAGIC ## Expected Fields 
