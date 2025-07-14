@@ -155,6 +155,11 @@ def production_bug4():
 
 # COMMAND ----------
 
+def new_feature_check():
+    pass
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC ## Expected Fields 
 # MAGIC
