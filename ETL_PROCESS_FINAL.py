@@ -138,6 +138,11 @@ def production_bug2():
 
 # COMMAND ----------
 
+def production_bug3():
+    print("bug 514 fixed")
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC ## Expected Fields 
 # MAGIC
