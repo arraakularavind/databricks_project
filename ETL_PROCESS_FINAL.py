@@ -124,17 +124,7 @@ elif mode=='prod':
 
 # COMMAND ----------
 
-def bug():
-    print("Bug in UI Resolved!")
-
-# COMMAND ----------
-
 target_field=['ResponseId','Age','Employment','EdLevel','Country','YearsCode','YearsCodePro','DevType','LanguageHaveWorkedWith','DatabaseHaveWorkedWith','WebframeHaveWorkedWith','SurveyYear']
-
-# COMMAND ----------
-
-def payment_feature():
-    print("payment feature working and tested")
 
 # COMMAND ----------
 
