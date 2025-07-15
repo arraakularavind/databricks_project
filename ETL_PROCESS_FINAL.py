@@ -133,6 +133,11 @@ target_field=['ResponseId','Age','Employment','EdLevel','Country','YearsCode','Y
 
 # COMMAND ----------
 
+def bug():
+    print("Bug in UI resolved!")
+
+# COMMAND ----------
+
 # MAGIC
 # MAGIC %md
 # MAGIC ## Expected Fields 
