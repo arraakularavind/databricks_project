@@ -124,6 +124,11 @@ elif mode=='prod':
 
 # COMMAND ----------
 
+def hotfix_bug():
+    print("bug resolved!")
+
+# COMMAND ----------
+
 target_field=['ResponseId','Age','Employment','EdLevel','Country','YearsCode','YearsCodePro','DevType','LanguageHaveWorkedWith','DatabaseHaveWorkedWith','WebframeHaveWorkedWith','SurveyYear']
 
 # COMMAND ----------
