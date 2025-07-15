@@ -128,6 +128,11 @@ target_field=['ResponseId','Age','Employment','EdLevel','Country','YearsCode','Y
 
 # COMMAND ----------
 
+def payment_feature():
+    print("Payment feature completed")
+
+# COMMAND ----------
+
 # MAGIC
 # MAGIC %md
 # MAGIC ## Expected Fields 
